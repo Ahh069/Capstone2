@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=vidaloka&display=swap');
+
+:root {
+    --primary-color: pink;
+    --secondary: red;
+    --bg: white;
+    --black: black;
+    --white: white;
+    --box-shadow: 0 .5rem 1rem black;
+}
+
+* {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+
+    font-size: 62.5;
+
+    overflow: hidden;
+
+    scroll-padding-top: 9rem;
+
+    scroll-behavior: smooth;
+
+}
+
+html::-webkit-scrollbar {
+
+    width: .8rem;
+
+}
+
+
+
+html::-webkit-scrollbar-track {
+
+    background: transparent;
+
+}
+
+
+
+html::-webkit-scrollbar-thumb {
+
+    background: var(--primary-color);
+
+    border-radius: 5rem;
+
+}
+
+
+body{
+    background-color: aqua;
+}
+.header {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+
+    background: rgb(192, 81, 81);
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 2rem;
+
+}
+
+.Shop {
+    float: left;
+  width: 33.33%;
+  padding: 15px;
+  background-color: rgb(164, 222, 135);
+    border: solid 5px;
+    text-align: left;
+    
+    margin: auto;
+}
+
+.Shop-cake {
+    float: right;
+    width: 33.33%;
+    padding: 15px;
+    background-color: burlywood;
+    border: solid 5px;
+    text-align: center;
+     
+    margin:auto;
+}
+
+.Classes{
+    background-color: rgb(210, 30, 72);
+    width: 400px;
+    border: solid 5px;
+    text-align: center;
+    padding: 20px;
+    margin:auto;
+
+
+}
+
+.reviews{
+    float: left;
+  width: 33.33%;
+  padding: 15px;
+    background-color: blueviolet;
+    border: solid 5px;
+    text-align: center;
+    
+    margin:auto;
+}
+.Amazon{
+    float: right;
+    width: 33.33%;
+    padding: 15px;
+     background-color: chocolate;
+    border: solid 5px;
+    text-align: center;
+    
+    margin:auto;
+}
+
+.information{
+    width:0%;
+    border: solid 5px;
+    text-align: left;
+    padding: 0px;
+    margin:auto;
+}
+
+.picture1{ 
+    width: 100px;
+}
+
+.picture2{
+    width: 50px;
+}
+
+.picture3{
+    width: 200px;
+}
+
+.picture4{
+    width: 200px;
+}
+
+.picture5{
+    width: 90px;
+}

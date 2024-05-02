@@ -1,0 +1,10 @@
+.reviews{
+    float: left;
+  width: 33.33%;
+  padding: 1px;
+    background-color: blueviolet;
+    border: solid 5px;
+    text-align: center;
+    
+    margin:auto;
+}

@@ -1,0 +1,10 @@
+.Amazon{
+    float: right;
+    width: 33.33%;
+    padding: 8px;
+     background-color: chocolate;
+    border: solid 5px;
+    text-align: center;
+    
+    margin:auto;
+}

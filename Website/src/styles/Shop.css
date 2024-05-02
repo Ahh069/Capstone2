@@ -1,0 +1,22 @@
+.Shop {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: rgb(164, 222, 135);
+    border: solid 5px;
+    text-align: left;
+  }
+  
+  .Shop-cake {
+    float: right;
+    width: 33.33%;
+    padding: 15px;
+    background-color: burlywood;
+    border: solid 5px;
+    text-align: center;
+  }
+  
+  .picture2 {
+    width: 50px;
+  }
+  
