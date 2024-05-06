@@ -6,6 +6,10 @@ import Reviews from './components/Reviews';
 import AmazonPicks from './components/AmazonPicks';
 import ContactInfo from './components/ContactInfo';
 
+// import SweetTreats from './components/SweetTreats';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -14,9 +18,16 @@ function App() {
       <Classes />
       <Reviews />
       <AmazonPicks />
-      <ContactInfo />
+      {/* <ContactInfo /> */}
+      {/* <SweetTreats/> */}
+      
+  
     </div>
+
+    
   );
+
 }
+
 
 export default App;
