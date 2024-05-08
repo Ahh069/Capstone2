@@ -15,9 +15,9 @@ function Header() {
       </a>
       <nav className="navbar">
         {/* Internal navigation */}
-        <Link to="/about">About</Link> {/* Internal Link */}
+        {/* <Link to="/about">About</Link> Internal Link */}
         
-        {/* External Register link */}
+        {/* this will lauch to the user page */}
         <a
           href="http://localhost:5050/users/new"
           target="_blank" /* Open in a new tab (optional) */
@@ -26,7 +26,7 @@ function Header() {
         >
           Register
         </a>
-        
+          {/* this will lauch to the login page */}
         <a
           href="http://localhost:5050/logins/new"
           target="_blank" /* Open in a new tab (optional) */
